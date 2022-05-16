@@ -1171,11 +1171,16 @@ public class SUPERCharacterAIO : MonoBehaviour{
         returnVal/=vectors.Count();
         return returnVal;
     }
-    
-    #endregion
 
-    #region Stamina System
-    private void CalculateStamina(){
+        public float GetCurrentSpeed()
+        {
+            return currentGroundSpeed;
+        }
+
+        #endregion
+
+        #region Stamina System
+        private void CalculateStamina(){
         if(isSprinting && !ignoreStamina && !isIdle){
             if(currentStaminaLevel!=0){
                 currentStaminaLevel = Mathf.MoveTowards(currentStaminaLevel, 0, s_depletionSpeed*Time.deltaTime);
