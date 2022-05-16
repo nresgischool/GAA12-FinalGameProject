@@ -230,8 +230,7 @@ public class Bot : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        /*
+    { 
         //if not waiting for a cool down to finish
         if (!coolDown)
         {
@@ -251,7 +250,7 @@ public class Bot : MonoBehaviour
                 Pursue();
             }           //otherwise pursue the target
         }
-        */
+        
 
         Wander();
 
