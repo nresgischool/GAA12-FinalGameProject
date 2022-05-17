@@ -38,8 +38,8 @@ namespace SimpleMan.VisualRaycast.Demo
             }
 
             //Did raycast hit something? -> Try paint it 
-            if (castResult)
-                PaintCastTargets(castResult, Color.white);
+           // if (castResult)
+           //     PaintCastTargets(castResult, Color.white);
         }
 
         /// <summary>
