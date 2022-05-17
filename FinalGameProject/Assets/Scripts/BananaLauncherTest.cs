@@ -19,6 +19,7 @@ public class BananaLauncherTest : MonoBehaviour
         {
             this.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             this.gameObject.GetComponent<Rigidbody>().AddRelativeForce((new Vector3(0, 0, launchSpeed)));
+            this.transform.parent = null;
             //capsule.GetComponent<Rigidbody>().AddRelativeForce((new Vector3(0, 0, launchVelocity)));
         }
 
