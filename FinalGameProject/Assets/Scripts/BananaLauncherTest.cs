@@ -6,7 +6,6 @@ public class BananaLauncherTest : MonoBehaviour
 {
     [SerializeField] private float launchSpeed = 700;
     private bool doOnce = false;
-    //public float fortnite = new Vector3(0, -1.77547228, 4.45869923);
     // Start is called before the first frame update
     void Start()
     {

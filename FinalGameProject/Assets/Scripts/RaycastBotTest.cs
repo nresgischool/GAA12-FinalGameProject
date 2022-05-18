@@ -261,7 +261,7 @@ public class RaycastBotTest : MonoBehaviour
     void Update()
     {
         //if not waiting for a cool down to finish
-        /*if (!coolDown)
+        if (!coolDown)
         {
             //if the target is considered out of range - e.g. not a threat
             if (!TargetInRange())
@@ -278,23 +278,21 @@ public class RaycastBotTest : MonoBehaviour
             {
                 Pursue();
             }           //otherwise pursue the target
-        }*/
+        }
 
-        if (!coolDown)
+        /*if (!coolDown)
         {
-            if (!TargetInRange())
-            {
-                Wander();
-            }
-            else if (CanSeeTarget() && TargetCanSeeMe())
+            if(!TargetInRange)
+            if (CanSeeTarget() && TargetCanSeeMe())
             {
                 Pursue();
             }
             else
             {
+                Debug.Log("Should be wandering");
                 Wander();
             }
-        }
+        }*/
         ColourChanger();
 
         /*if(health <= 0)
