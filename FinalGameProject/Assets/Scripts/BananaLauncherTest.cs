@@ -5,6 +5,7 @@ using UnityEngine;
 public class BananaLauncherTest : MonoBehaviour
 {
     [SerializeField] private float launchSpeed = 700;
+    private bool doOnce = false;
     //public float fortnite = new Vector3(0, -1.77547228, 4.45869923);
     // Start is called before the first frame update
     void Start()
@@ -15,11 +16,12 @@ public class BananaLauncherTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        if(Input.GetMouseButton(0) && !doOnce)
         {
             this.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             this.gameObject.GetComponent<Rigidbody>().AddRelativeForce((new Vector3(0, 0, launchSpeed)));
             this.transform.parent = null;
+            doOnce = true;
             //capsule.GetComponent<Rigidbody>().AddRelativeForce((new Vector3(0, 0, launchVelocity)));
         }
 
@@ -27,5 +29,10 @@ public class BananaLauncherTest : MonoBehaviour
         {
             //Instantiate()
         }
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        Destroy(this.gameObject, 5);
     }
 }
