@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c14f203985b02e41a551fb58469d148, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchSpeed: 100
+  launchSpeed: 700
 --- !u!4 &404180810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c01c124bb5e78914288f47b3fed932c0, type: 3}
@@ -533,11 +533,19 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391145, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
+      propertyPath: canCrouch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817638361354391145, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
       propertyPath: enableHeadbob
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391145, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
       propertyPath: cameraPerspective
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817638361354391145, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
+      propertyPath: enableSurvivalStats
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391145, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
@@ -950,6 +958,8 @@ GameObject:
   - component: {fileID: 1530945088}
   - component: {fileID: 1530945093}
   - component: {fileID: 1530945092}
+  - component: {fileID: 1530945087}
+  - component: {fileID: 1530945094}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -957,6 +967,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1530945087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530945086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8a740ce1f9beb4ca379de473dca23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1307874061}
+  health: 100
+  red: {r: 0, g: 0, b: 0, a: 0}
+  orange: {r: 0, g: 0, b: 0, a: 0}
+  yellow: {r: 0, g: 0, b: 0, a: 0}
 --- !u!136 &1530945088
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1041,7 +1068,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530945086}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e55e1a86d0878a6448a757ae6ea99987, type: 3}
   m_Name: 
@@ -1073,6 +1100,20 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1530945094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530945086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70ffd48bcdc33745ac84c7d039df973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castType: 0
+  castAll: 0
 --- !u!1001 &1546447213
 PrefabInstance:
   m_ObjectHideFlags: 0

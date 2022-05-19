@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This job still pays the bills so I can't afford to get this place shutdown
+  m_text: This job pays the bills so I can't afford to get this place shutdown
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1589,7 +1589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189860898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.31, y: 8.85, z: -11.091073}
+  m_LocalPosition: {x: -4.19, y: 8.85, z: -11.091073}
   m_LocalScale: {x: 12.275059, y: 2.5600765, z: 1}
   m_Children:
   - {fileID: 245482032}
@@ -1639,7 +1639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355869414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.03, y: 8.21, z: -11.091073}
+  m_LocalPosition: {x: -3.59, y: 8.21, z: -11.091073}
   m_LocalScale: {x: 12.275059, y: 3.389228, z: 1}
   m_Children:
   - {fileID: 1924623418}
@@ -1980,7 +1980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472147977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.03, y: 8.21, z: -11.091073}
+  m_LocalPosition: {x: -3.9, y: 8.21, z: -11.091073}
   m_LocalScale: {x: 12.275059, y: 3.389228, z: 1}
   m_Children:
   - {fileID: 443778707}
