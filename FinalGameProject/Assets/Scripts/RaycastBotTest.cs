@@ -191,7 +191,7 @@ public class RaycastBotTest : MonoBehaviour
         {
             {
                 //ray will hit the target if no other colliders in the way
-                if (raycastInfo.transform.gameObject.tag == "cop")
+                if (raycastInfo.transform.gameObject.tag == "Player")
                 {
                     return true;
                 }
@@ -266,16 +266,19 @@ public class RaycastBotTest : MonoBehaviour
             //if the target is considered out of range - e.g. not a threat
             if (!TargetInRange())
             {
+                //Debug.Log("Wander");
                 Wander();
             }
             else if (CanSeeTarget() && TargetCanSeeMe()) //if there's nothing between the agent and target
             {                                              //and the target is facing the agent
+                //Debug.Log("CanSeeTarget and such");
                 CleverHide();                               //go hide behind something
                 coolDown = true;
                 Invoke("BehaviourCoolDown", 5);             //continue hiding for 5 seconds
             }
             else
             {
+                //Debug.Log("Pursue");
                 Pursue();
             }           //otherwise pursue the target
         }

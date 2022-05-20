@@ -24,9 +24,10 @@ public class BananaLauncherTest : MonoBehaviour
             //capsule.GetComponent<Rigidbody>().AddRelativeForce((new Vector3(0, 0, launchVelocity)));
         }
 
-        if(Input.GetKeyDown("R"))
+        if(Input.GetKeyDown("r"))
         {
-            //Instantiate()
+            Debug.Log("Instantiate");
+            Instantiate(this);
         }
     }
 
