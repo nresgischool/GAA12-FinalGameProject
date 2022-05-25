@@ -9,6 +9,6 @@ public class CameraTracking : MonoBehaviour
     // Tracks the players location
     void Update()
     {
-        this.transform.LookAt(target);
+        transform.LookAt(2 * transform.position - target.transform.position);
     }
 }
