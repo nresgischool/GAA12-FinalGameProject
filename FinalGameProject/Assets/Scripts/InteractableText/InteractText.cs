@@ -25,8 +25,29 @@ public class InteractText : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+        text.gameObject.SetActive(false);
+    }
+
     void Update()
     {
         this.transform.LookAt(target);
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            text.gameObject.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            text.gameObject.SetActive(false);
+        }
     }
 }
