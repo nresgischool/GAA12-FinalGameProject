@@ -32,6 +32,22 @@ public class InteractText : MonoBehaviour
 
     void Update()
     {
-        transform.LookAt(2 * transform.position - target.transform.position);
+        this.transform.LookAt(target);
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            text.gameObject.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            text.gameObject.SetActive(false);
+        }
     }
 }
