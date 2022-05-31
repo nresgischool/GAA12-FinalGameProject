@@ -267,17 +267,20 @@ public class AimTrainingBot : MonoBehaviour
             if (!TargetInRange())
             {
                 Wander();
+                this.gameObject.GetComponent<Renderer>().material.color = yellow;
             }
             else if (CanSeeTarget() && TargetCanSeeMe()) //if there's nothing between the agent and target
             {                                              //and the target is facing the agent
                 CleverHide();                               //go hide behind something
                 coolDown = true;
                 Invoke("BehaviourCoolDown", 5);             //continue hiding for 5 seconds
+                this.gameObject.GetComponent<Renderer>().material.color = orange;
             }
             else
             {
                 Pursue();
-            }           //otherwise pursue the target
+                this.gameObject.GetComponent<Renderer>().material.color = red;
+            }         //otherwise pursue the target
         }
 
         ColourChanger();
