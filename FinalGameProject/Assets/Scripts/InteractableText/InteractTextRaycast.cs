@@ -34,7 +34,7 @@ public class InteractTextRaycast : MonoBehaviour
                 if (!doOnce)
                 {
                     raycastedObj = hit.collider.gameObject.GetComponent<InteractText>();
-                    CrosshairChange(true);
+                    //CrosshairChange(true);
                 }
 
                 isCrosshairActive = true;
