@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 182956778}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: InteractiveObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8a740ce1f9beb4ca379de473dca23e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1848536975}
+  target: {fileID: 1307874061}
   health: 100
   red: {r: 1, g: 0, b: 0, a: 0}
   orange: {r: 1, g: 0.4760489, b: 0, a: 0}
@@ -1643,6 +1643,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6817638360860843948, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
   m_PrefabInstance: {fileID: 415323584}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1848536976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848536975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ea4c197a1e38a4fa6ed9721c1a8100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayLength: 5
+  layerMaskInteract:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  excludeLayerName: 
+  interactKey: 101
+  crosshair: {fileID: 963733472}
 --- !u!4 &1848536978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6817638360860843947, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
