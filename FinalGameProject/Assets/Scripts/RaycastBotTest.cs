@@ -268,7 +268,7 @@ public class RaycastBotTest : MonoBehaviour
             {
                 //Debug.Log("Wander");
                 Wander();
-                this.gameObject.GetComponent<Renderer>().material.color = yellow;
+                this.gameObject.GetComponent<Renderer>().material.color = Color.black;
             }
             else if (CanSeeTarget() && TargetCanSeeMe()) //if there's nothing between the agent and target
             {                                              //and the target is facing the agent
@@ -276,13 +276,13 @@ public class RaycastBotTest : MonoBehaviour
                 CleverHide();                               //go hide behind something
                 coolDown = true;
                 Invoke("BehaviourCoolDown", 5);             //continue hiding for 5 seconds
-                this.gameObject.GetComponent<Renderer>().material.color = orange;
+                this.gameObject.GetComponent<Renderer>().material.color = Color.blue;
             }
             else
             {
                 //Debug.Log("Pursue");
                 Pursue();
-                this.gameObject.GetComponent<Renderer>().material.color = red;
+                this.gameObject.GetComponent<Renderer>().material.color = Color.red;
             }           //otherwise pursue the target
         }
 
