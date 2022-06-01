@@ -32,10 +32,10 @@ public class InteractText : MonoBehaviour
 
     void Update()
     {
-        this.transform.LookAt(target);
+        this.transform.LookAt(2 * transform.position - target.transform.position);
     }
 
-    void OnTriggerEnter(Collider col)
+    /*void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Player")
         {
@@ -49,5 +49,5 @@ public class InteractText : MonoBehaviour
         {
             text.gameObject.SetActive(false);
         }
-    }
+    }*/
 }
