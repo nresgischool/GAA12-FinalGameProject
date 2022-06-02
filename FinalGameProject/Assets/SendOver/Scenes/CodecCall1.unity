@@ -411,15 +411,15 @@ RectTransform:
   m_GameObject: {fileID: 245482031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.97000027}
-  m_LocalScale: {x: 0.081466004, y: 0.39061332, z: 1}
+  m_LocalScale: {x: 0.0908548, y: 0.39061332, z: 1}
   m_Children: []
   m_Father: {fileID: 1189860902}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.01059, y: 0.0523}
-  m_SizeDelta: {x: 10.66496, y: 2.2925}
+  m_AnchoredPosition: {x: 0.02747, y: 0.052299976}
+  m_SizeDelta: {x: 10.26061, y: 2.2925}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &245482033
 MonoBehaviour:
@@ -622,14 +622,14 @@ RectTransform:
   m_GameObject: {fileID: 443778706}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.97000027}
-  m_LocalScale: {x: 0.081466004, y: 0.2950524, z: 1}
+  m_LocalScale: {x: 0.09593265, y: 0.29505244, z: 1}
   m_Children: []
   m_Father: {fileID: 1472147978}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.005302429, y: 0.272}
+  m_AnchoredPosition: {x: 0.09501052, y: 0.27200007}
   m_SizeDelta: {x: 11.686, y: 1.922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &443778708
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_text: That is disgusting
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -912,8 +912,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715036924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.73, y: 8.05, z: -11.091073}
-  m_LocalScale: {x: 12.275059, y: 3.389228, z: 1}
+  m_LocalPosition: {x: -4.6878, y: 8.05, z: -11.091073}
+  m_LocalScale: {x: 10.358922, y: 3.389228, z: 1}
   m_Children:
   - {fileID: 1701088194}
   m_Father: {fileID: 1476679671}
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 939795736}
   - component: {fileID: 939795735}
   m_Layer: 5
-  m_Name: Text Right
+  m_Name: Text Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1221,15 +1221,15 @@ RectTransform:
   m_GameObject: {fileID: 939795733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.97000027}
-  m_LocalScale: {x: 0.08692423, y: 0.11459813, z: 1}
+  m_LocalScale: {x: 0.101772904, y: 0.11459813, z: 1}
   m_Children: []
   m_Father: {fileID: 1064344628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.028001785, y: -0.08759856}
-  m_SizeDelta: {x: 11.686, y: 9.2289}
+  m_AnchoredPosition: {x: 0.075829476, y: -0.087598324}
+  m_SizeDelta: {x: 11.2305, y: 9.2289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &939795735
 MonoBehaviour:
@@ -1251,10 +1251,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I'm going to sneak to the washroom anyway
+  m_text: I'm going to sneak to into the washroom in the office anyway
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0.3412199, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &939795736
@@ -1490,8 +1490,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064344627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.71, y: 6.162757, z: -11.091073}
-  m_LocalScale: {x: 12.06453, y: 8.726146, z: 1}
+  m_LocalPosition: {x: -4.5903, y: 6.162757, z: -11.091073}
+  m_LocalScale: {x: 10.304316, y: 8.726146, z: 1}
   m_Children:
   - {fileID: 939795734}
   m_Father: {fileID: 1476679671}
@@ -1873,8 +1873,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189860898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.22, y: 8.85, z: -11.091073}
-  m_LocalScale: {x: 12.275059, y: 2.5600765, z: 1}
+  m_LocalPosition: {x: -4.8545, y: 8.85, z: -11.091073}
+  m_LocalScale: {x: 11.006574, y: 2.5600765, z: 1}
   m_Children:
   - {fileID: 245482032}
   m_Father: {fileID: 1476679671}
@@ -2287,8 +2287,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472147977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7299998, y: 4.3, z: -11.091073}
-  m_LocalScale: {x: 12.275059, y: 3.389228, z: 1}
+  m_LocalPosition: {x: -4.6553, y: 5.25, z: -11.091073}
+  m_LocalScale: {x: 10.42398, y: 3.389228, z: 1}
   m_Children:
   - {fileID: 443778707}
   m_Father: {fileID: 1476679671}
@@ -2450,14 +2450,14 @@ RectTransform:
   m_GameObject: {fileID: 1701088193}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.97000027}
-  m_LocalScale: {x: 0.081466004, y: 0.2950524, z: 1}
+  m_LocalScale: {x: 0.096535146, y: 0.29505244, z: 1}
   m_Children: []
   m_Father: {fileID: 715036929}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.005302429, y: 0.272}
+  m_AnchoredPosition: {x: 0.09874457, y: 0.2720002}
   m_SizeDelta: {x: 11.686, y: 1.922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701088195
@@ -2483,7 +2483,7 @@ MonoBehaviour:
   m_text: I didn't bring one
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
