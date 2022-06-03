@@ -1507,7 +1507,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: You can't go to the upper floors without working unpaid Ovaltine so get
-    back to work at the warehouse
+    back to work
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
