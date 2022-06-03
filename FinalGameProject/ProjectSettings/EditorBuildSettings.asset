@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/SendOver/Scenes/CodecCall1.unity
     guid: 2a23ed895c6b3e24b96846a9be4aeb80
   - enabled: 1
+    path: Assets/Scenes/Scenery.unity
+    guid: 8214ec6efafc509429d879c018940164
+  - enabled: 1
     path: Assets/SendOver/Scenes/OptionalCallOffice.unity
     guid: 0668ecf7e1e54204296c934c4edb7425
   - enabled: 1
     path: Assets/SendOver/Scenes/CodecCallJanitor.unity
     guid: a2cf11d1fb8bec940a9d7e7d9c994059
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8eee1f347f8f5f74795e628b2b5e9236
   m_configObjects: {}
