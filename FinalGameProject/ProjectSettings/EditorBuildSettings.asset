@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WearHouse.unity
     guid: 8bababd07ea65a144a65dfb66ae53f10
+  - enabled: 1
+    path: Assets/SendOver/Scenes/OptionalCallWarehouse.unity
+    guid: 4ccbba5a14be5c643806772415af8e27
+  - enabled: 1
+    path: Assets/SendOver/Scenes/CodecCallCEO.unity
+    guid: be6e85ffc3bd7244eb9edd6056878b14
   m_configObjects: {}

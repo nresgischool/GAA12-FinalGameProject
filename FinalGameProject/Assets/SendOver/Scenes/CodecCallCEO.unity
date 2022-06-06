@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984494}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.52, y: 9.1864, z: -11.091073}
+  m_LocalPosition: {x: -4.3, y: 9.1864, z: -11.091073}
   m_LocalScale: {x: 10.756661, y: 2.678927, z: 1}
   m_Children:
   - {fileID: 2020533549}
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thinking like that is why you're only a warehouse employee
+  m_text: Thinking like that is why you're only an entry level employee
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 348268254}
   - component: {fileID: 348268253}
   m_Layer: 5
-  m_Name: Image Ovaltine
+  m_Name: Image Racer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1372,8 +1372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.04725, y: -0.08759856}
-  m_SizeDelta: {x: 11.24322, y: 9.2289}
+  m_AnchoredPosition: {x: -0.0412, y: -0.08759856}
+  m_SizeDelta: {x: 11.10415, y: 9.2289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903707017
 MonoBehaviour:
@@ -1395,10 +1395,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: but first you must beat me in a car chase, if you win you keep the car
+  m_text: but first you must beat me in a car chase with one of my cars, if you win
+    you keep the car
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1461,7 +1462,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0.3412199, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &903707018
@@ -1484,7 +1485,6 @@ GameObject:
   - component: {fileID: 949580704}
   - component: {fileID: 949580703}
   - component: {fileID: 949580702}
-  - component: {fileID: 949580705}
   - component: {fileID: 949580701}
   m_Layer: 0
   m_Name: Diverging Option 1
@@ -1517,12 +1517,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 949580699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
+  m_Script: {fileID: 11500000, guid: e393876013d82f24381d8ff218f414a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable2
   On: {fileID: 203411813}
   Off: {fileID: 949580699}
+  Off2: {fileID: 1052330520}
 --- !u!65 &949580702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1585,20 +1586,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949580699}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &949580705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949580699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44a08a852f817a49ad638683e5faae8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable2
-  Off: {fileID: 1052330520}
 --- !u!1 &1010514734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,8 +1732,6 @@ GameObject:
   - component: {fileID: 1052330525}
   - component: {fileID: 1052330524}
   - component: {fileID: 1052330523}
-  - component: {fileID: 1052330527}
-  - component: {fileID: 1052330526}
   - component: {fileID: 1052330522}
   m_Layer: 0
   m_Name: Divergin Option 2
@@ -1779,11 +1764,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1052330520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44a08a852f817a49ad638683e5faae8, type: 3}
+  m_Script: {fileID: 11500000, guid: e393876013d82f24381d8ff218f414a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable1
-  Off: {fileID: 1052330520}
+  On: {fileID: 760416374}
+  Off: {fileID: 949580699}
+  Off2: {fileID: 1052330520}
 --- !u!65 &1052330523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1846,34 +1833,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052330520}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1052330526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052330520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44a08a852f817a49ad638683e5faae8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable1
-  Off: {fileID: 949580699}
---- !u!114 &1052330527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052330520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ce35d1a550398b499c702ad95096e95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable1
-  On: {fileID: 760416374}
 --- !u!1 &1142429040
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,8 +2024,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yes. Everyday warehouse workers like you use my washroom when I'm not using
-    it
+  m_text: Yes. Everyday employees like you use my washroom when I'm not using it
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
@@ -3396,7 +3354,6 @@ GameObject:
   - component: {fileID: 1762093709}
   - component: {fileID: 1762093708}
   - component: {fileID: 1762093707}
-  - component: {fileID: 1762093711}
   m_Layer: 0
   m_Name: Button Right (1)
   m_TagString: Selectable1
@@ -3428,11 +3385,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1762093705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
+  m_Script: {fileID: 11500000, guid: e1edc7b067555ea46b62ecdfd966a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable1
-  On: {fileID: 1052330520}
+  On: {fileID: 949580699}
+  On2: {fileID: 1052330520}
   Off: {fileID: 1762093705}
 --- !u!65 &1762093708
 BoxCollider:
@@ -3496,20 +3454,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762093705}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1762093711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762093705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ce35d1a550398b499c702ad95096e95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable1
-  On: {fileID: 949580699}
 --- !u!1 &1777680111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3723,7 +3667,6 @@ GameObject:
   - component: {fileID: 1906446538}
   - component: {fileID: 1906446537}
   - component: {fileID: 1906446536}
-  - component: {fileID: 1906446541}
   m_Layer: 0
   m_Name: Button Left (2)
   m_TagString: Selectable1
@@ -3740,12 +3683,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1906446535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
+  m_Script: {fileID: 11500000, guid: f2aaf178a35e63a40839cf2fa66826a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable1
   On: {fileID: 731825424}
+  On2: {fileID: 348268252}
   Off: {fileID: 1906446535}
+  Off2: {fileID: 324657036}
 --- !u!65 &1906446537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3823,21 +3768,6 @@ Transform:
   m_Father: {fileID: 1476679671}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1906446541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906446535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable1
-  On: {fileID: 348268252}
-  Off: {fileID: 324657036}
 --- !u!1 &1915534146
 GameObject:
   m_ObjectHideFlags: 0
