@@ -574,8 +574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d44de5b9d53f94886179f99ed632c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 171288642}
-  target: {fileID: 1307874062}
 --- !u!65 &182956779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -761,6 +759,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a632f38cf9aa540aeba8620cceb6df, type: 3}
+--- !u!1 &348231159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa91b258a5a86bb4cb19b512e93e0599, type: 3}
+  m_PrefabInstance: {fileID: 71665664}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 348231160}
+  m_Layer: 0
+  m_Name: 'Ch24_nonPBR (Missing Prefab with guid: fa91b258a5a86bb4cb19b512e93e0599)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &348231160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa91b258a5a86bb4cb19b512e93e0599, type: 3}
+  m_PrefabInstance: {fileID: 71665664}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348231159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &359460455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -863,7 +891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c14f203985b02e41a551fb58469d148, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchSpeed: 700
 --- !u!4 &404180810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c01c124bb5e78914288f47b3fed932c0, type: 3}
@@ -1289,11 +1316,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6817638361354391147, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
   m_PrefabInstance: {fileID: 415323584}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1307874062 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6817638361354391144, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
-  m_PrefabInstance: {fileID: 415323584}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1313818126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,11 +1451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8a740ce1f9beb4ca379de473dca23e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1307874061}
-  health: 100
-  red: {r: 1, g: 0, b: 0, a: 0}
-  orange: {r: 1, g: 0.4760489, b: 0, a: 0}
-  yellow: {r: 1, g: 0.9964248, b: 0, a: 0}
 --- !u!136 &1530945088
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1716,13 +1733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ea4c197a1e38a4fa6ed9721c1a8100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayLength: 5
-  layerMaskInteract:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  excludeLayerName: 
-  interactKey: 101
-  crosshair: {fileID: 963733472}
 --- !u!4 &1848536978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6817638360860843947, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
@@ -1872,7 +1882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ed86cb7f3bfc5d047b5db4a9fc40752a, type: 3}
       propertyPath: m_Name
-      value: Ch24
+      value: Fortnite Ninja
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed86cb7f3bfc5d047b5db4a9fc40752a, type: 3}
