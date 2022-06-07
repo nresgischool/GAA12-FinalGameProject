@@ -2106,7 +2106,7 @@ GameObject:
   - component: {fileID: 1472147979}
   m_Layer: 0
   m_Name: Diverging Option 2
-  m_TagString: Selectable4
+  m_TagString: Selectable1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2138,7 +2138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e393876013d82f24381d8ff218f414a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectableTag: Selectable4
+  selectableTag: Selectable1
   On: {fileID: 821530595}
   Off: {fileID: 715036924}
   Off2: {fileID: 1472147977}
