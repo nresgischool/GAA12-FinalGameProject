@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 984497}
   - component: {fileID: 984496}
   - component: {fileID: 984495}
-  - component: {fileID: 984500}
   - component: {fileID: 984499}
   m_Layer: 0
   m_Name: Button Right
@@ -230,26 +229,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 984494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
+  m_Script: {fileID: 11500000, guid: e1edc7b067555ea46b62ecdfd966a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable1
   On: {fileID: 715036924}
+  On2: {fileID: 1472147977}
   Off: {fileID: 984494}
---- !u!114 &984500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ce35d1a550398b499c702ad95096e95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable1
-  On: {fileID: 1472147977}
 --- !u!1 &53445161
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +938,6 @@ GameObject:
   - component: {fileID: 715036928}
   - component: {fileID: 715036927}
   - component: {fileID: 715036926}
-  - component: {fileID: 715036930}
   - component: {fileID: 715036925}
   m_Layer: 0
   m_Name: Diverging Option 1
@@ -970,12 +955,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 715036924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
+  m_Script: {fileID: 11500000, guid: e393876013d82f24381d8ff218f414a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable3
   On: {fileID: 1154695405}
   Off: {fileID: 715036924}
+  Off2: {fileID: 1472147977}
 --- !u!65 &715036926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1053,20 +1039,6 @@ Transform:
   m_Father: {fileID: 1476679671}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &715036930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715036924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44a08a852f817a49ad638683e5faae8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable3
-  Off: {fileID: 1472147977}
 --- !u!1 &821530595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,7 +2347,6 @@ GameObject:
   - component: {fileID: 1472147982}
   - component: {fileID: 1472147981}
   - component: {fileID: 1472147980}
-  - component: {fileID: 1472147983}
   - component: {fileID: 1472147979}
   m_Layer: 0
   m_Name: Diverging Option 2
@@ -2408,12 +2379,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1472147977}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f94283701c152944becfefe34965b08, type: 3}
+  m_Script: {fileID: 11500000, guid: e393876013d82f24381d8ff218f414a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable2
   On: {fileID: 821530595}
-  Off: {fileID: 1472147977}
+  Off: {fileID: 715036924}
+  Off2: {fileID: 1472147977}
 --- !u!65 &1472147980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2476,20 +2448,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472147977}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1472147983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472147977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44a08a852f817a49ad638683e5faae8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableTag: Selectable2
-  Off: {fileID: 715036924}
 --- !u!1 &1476679670
 GameObject:
   m_ObjectHideFlags: 0
