@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - InteractiveObject
+  - TableBanana
+  - SelectableFinal
+  - Selectable
+  - Selectable2
+  - Selectable1
+  - Selectable3
+  - Selectable4
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -19,9 +19,9 @@ public class HealthManager : MonoBehaviour
     void Update()
     {   
         /// slider gets weird bleow 0.6 so the player dies at 60% percent health
-        if (currentHealth == 60)
+        if (currentHealth <= 60)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
@@ -29,7 +29,7 @@ public class HealthManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            takeDamage(6);
+            takeDamage(8);
         }
     }
 
