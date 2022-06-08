@@ -2870,7 +2870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23786e8425d32f0408dd9fe9fa5dc676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelSelect: 0
+  levelSelect: -1
   selectableTag: SelectableFinal
 --- !u!65 &1868808962
 BoxCollider:
