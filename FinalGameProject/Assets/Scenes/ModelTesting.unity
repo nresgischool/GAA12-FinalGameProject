@@ -671,60 +671,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
---- !u!1001 &2226111278081878046
+--- !u!1001 &384129815518683191
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1307686253276531105, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
-      propertyPath: m_Name
-      value: Ninja (With Animations)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalPosition.x
       value: 106.84113
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalPosition.y
       value: -87.731
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalPosition.z
       value: 51.398323
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1832407684369208091, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+    - target: {fileID: 206617429599247154, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 690702044181987720, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
+      propertyPath: m_Name
+      value: Ninja (With Animations)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fce82d830a3c97440a93b2f6f92bf1a2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d5672379a58c3644bba9230065ec1e17, type: 3}
