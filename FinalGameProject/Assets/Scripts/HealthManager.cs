@@ -25,7 +25,7 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Enemy")
         {
