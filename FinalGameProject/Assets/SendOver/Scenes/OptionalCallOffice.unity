@@ -294,8 +294,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Zamazon Employee
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: d87d3a252d4f23347911f99c98aa2b47, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23786e8425d32f0408dd9fe9fa5dc676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelSelect: 1
+  levelSelect: -2
   selectableTag: SelectableFinal
 --- !u!65 &1064344630
 BoxCollider:
@@ -2689,8 +2689,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Zamazon Employee
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: d87d3a252d4f23347911f99c98aa2b47, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
