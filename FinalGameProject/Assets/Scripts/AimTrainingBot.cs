@@ -18,6 +18,9 @@ public class AimTrainingBot : MonoBehaviour
     public Color orange;
     public Color yellow;
 
+    [SerializeField] private int waitTimer = 3;
+    [SerializeField] private bool pauseInteraction = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -297,11 +300,25 @@ public class AimTrainingBot : MonoBehaviour
 
     void Attack()
     {
-        if(Vector3.Distance(this.transform.position, target.transform.position) < 5)
+        if(Vector3.Distance(this.transform.position, target.transform.position) < 5 && !pauseInteraction)
         {
             Debug.Log("Attack");
             anim.Play("H_Punch", 0, 0.0f);
+            StartCoroutine(WaitForAnim());
         }
+        else if (Vector3.Distance(this.transform.position, target.transform.position) >= 5 && !pauseInteraction)
+        {
+            anim.Play("B_Kick", 0, 0.0f);
+            StartCoroutine(WaitForAnim());
+        }
+    }
+
+
+    private IEnumerator WaitForAnim()
+    {
+        pauseInteraction = true;
+        yield return new WaitForSeconds(waitTimer);
+        pauseInteraction = false;
     }
 
     void OnCollisionEnter(Collision col)
