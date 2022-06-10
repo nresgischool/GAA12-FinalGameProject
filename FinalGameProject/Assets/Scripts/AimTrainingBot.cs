@@ -10,6 +10,7 @@ public class AimTrainingBot : MonoBehaviour
     public GameObject target;
     //Drive ds;
     SUPERCharacterAIO sC;
+    [SerializeField] private Animator anim;
 
     public float health = 100;
 
@@ -283,6 +284,8 @@ public class AimTrainingBot : MonoBehaviour
             }         //otherwise pursue the target
         }
 
+        Attack();
+
         ColourChanger();
 
         /*if(health <= 0)
@@ -290,6 +293,15 @@ public class AimTrainingBot : MonoBehaviour
             Destroy(this);
             Instantiate(prefab, new Vector3(Random.Range(minValue, maxValue), 1, Random.Range(minValue, maxValue)), Quaternion.identity);
         }*/
+    }
+
+    void Attack()
+    {
+        if(Vector3.Distance(this.transform.position, target.transform.position) < 5)
+        {
+            Debug.Log("Attack");
+            anim.Play("H_Punch", 0, 0.0f);
+        }
     }
 
     void OnCollisionEnter(Collision col)
