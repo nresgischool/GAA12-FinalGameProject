@@ -14,11 +14,11 @@ public class AimTrainingBot : MonoBehaviour
 
     public float health = 100;
 
-    public Color red;
+    /*public Color red;
     public Color orange;
-    public Color yellow;
+    public Color yellow;*/
 
-    [SerializeField] private int waitTimer = 3;
+    [SerializeField] private int waitTimer = 2;
     [SerializeField] private bool pauseInteraction = false;
 
     // Start is called before the first frame update
@@ -241,26 +241,6 @@ public class AimTrainingBot : MonoBehaviour
         return false;
     }
 
-    void ColourChanger()
-    {
-        if (health <= 25)
-        {
-            this.gameObject.GetComponent<Renderer>().material.color = red;
-        }
-        else if (health <= 50)
-        {
-            this.gameObject.GetComponent<Renderer>().material.color = orange;
-        }
-        else if (health <= 75)
-        {
-            this.gameObject.GetComponent<Renderer>().material.color = yellow;
-        }
-        else
-        {
-            this.gameObject.GetComponent<Renderer>().material.color = Color.white;
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -271,26 +251,20 @@ public class AimTrainingBot : MonoBehaviour
             if (!TargetInRange())
             {
                 Wander();
-                this.gameObject.GetComponent<Renderer>().material.color = yellow;
             }
             else if (CanSeeTarget() && TargetCanSeeMe()) //if there's nothing between the agent and target
             {                                              //and the target is facing the agent
                 CleverHide();                               //go hide behind something
                 coolDown = true;
                 Invoke("BehaviourCoolDown", 5);             //continue hiding for 5 seconds
-                this.gameObject.GetComponent<Renderer>().material.color = orange;
             }
             else
             {
                 Pursue();
-                this.gameObject.GetComponent<Renderer>().material.color = red;
             }         //otherwise pursue the target
         }
 
         Attack();
-
-        ColourChanger();
-
         /*if(health <= 0)
         {
             Destroy(this);
@@ -300,13 +274,13 @@ public class AimTrainingBot : MonoBehaviour
 
     void Attack()
     {
-        if(Vector3.Distance(this.transform.position, target.transform.position) < 5 && !pauseInteraction)
+        /*if(Vector3.Distance(this.transform.position, target.transform.position) < 2 && !pauseInteraction)
         {
             Debug.Log("Attack");
             anim.Play("H_Punch", 0, 0.0f);
             StartCoroutine(WaitForAnim());
-        }
-        else if (Vector3.Distance(this.transform.position, target.transform.position) >= 5 && !pauseInteraction)
+        }*/
+        if (Vector3.Distance(this.transform.position, target.transform.position) >= 2 && !pauseInteraction)
         {
             anim.Play("B_Kick", 0, 0.0f);
             StartCoroutine(WaitForAnim());
@@ -319,6 +293,14 @@ public class AimTrainingBot : MonoBehaviour
         pauseInteraction = true;
         yield return new WaitForSeconds(waitTimer);
         pauseInteraction = false;
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if(col.gameObject.tag == "Player")
+        {
+            anim.Play("H_Punch", 0, 0.0f);
+        }
     }
 
     void OnCollisionEnter(Collision col)

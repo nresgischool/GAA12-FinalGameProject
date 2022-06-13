@@ -574,8 +574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d44de5b9d53f94886179f99ed632c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
-  target: {fileID: 0}
+  text: {fileID: 171288642}
+  target: {fileID: 1307874066}
 --- !u!65 &182956779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1528,6 +1528,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6817638361354391147, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
   m_PrefabInstance: {fileID: 415323584}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1307874066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6817638361354391144, guid: 486cca3eb6a1b544cb46ebc4cdac8b6b, type: 3}
+  m_PrefabInstance: {fileID: 415323584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1307874067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1909,9 +1914,6 @@ MonoBehaviour:
   target: {fileID: 1307874061}
   anim: {fileID: 0}
   health: 100
-  red: {r: 1, g: 0, b: 0.029075146, a: 0}
-  orange: {r: 1, g: 0.59171915, b: 0, a: 0}
-  yellow: {r: 0.96055627, g: 1, b: 0, a: 0}
   waitTimer: 1
   pauseInteraction: 0
 --- !u!195 &1530945093
@@ -2327,10 +2329,7 @@ MonoBehaviour:
   target: {fileID: 1307874061}
   anim: {fileID: 1950948488}
   health: 100
-  red: {r: 0, g: 0, b: 0, a: 0}
-  orange: {r: 0, g: 0, b: 0, a: 0}
-  yellow: {r: 0, g: 0, b: 0, a: 0}
-  waitTimer: 3
+  waitTimer: 2
   pauseInteraction: 0
 --- !u!23 &1950948492
 MeshRenderer:
@@ -2373,3 +2372,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1950948493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950948487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 1.3}
+  m_Center: {x: 0, y: 1, z: 0}
