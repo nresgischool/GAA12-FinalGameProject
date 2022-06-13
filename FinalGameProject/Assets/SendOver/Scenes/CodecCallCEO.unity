@@ -1162,7 +1162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23786e8425d32f0408dd9fe9fa5dc676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelSelect: 1
+  levelSelect: -7
   selectableTag: SelectableFinal
 --- !u!65 &731825427
 BoxCollider:
@@ -1395,8 +1395,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: but first you must beat me in a car chase with one of my cars, if you win
-    you keep the car
+  m_text: but first I will send you through a time loop because we couldn't make
+    the third level
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f169cd25391abb1498de504307f74c18, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: f169cd25391abb1498de504307f74c18, type: 2}
