@@ -27,9 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/WearHouse.unity
     guid: 8bababd07ea65a144a65dfb66ae53f10
   - enabled: 1
+    path: Assets/SendOver/Scenes/GameOver2.unity
+    guid: 48e0f45b3f2f2cb40990534cfc180583
+  - enabled: 1
     path: Assets/SendOver/Scenes/OptionalCallWarehouse.unity
     guid: 4ccbba5a14be5c643806772415af8e27
   - enabled: 1
     path: Assets/SendOver/Scenes/CodecCallCEO.unity
     guid: be6e85ffc3bd7244eb9edd6056878b14
+  - enabled: 1
+    path: Assets/SendOver/Scenes/SecretEnding.unity
+    guid: ade407990afe84b4f8c6ce78a0500fdc
   m_configObjects: {}
